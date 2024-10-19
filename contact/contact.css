@@ -1,0 +1,133 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Algemene layout */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #444;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6347;
+  }
+  
+  /* Contact Sectie */
+  .contact-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .contact-content h2 {
+    font-size: 32px;
+    color: #007BFF;
+    margin-bottom: 20px;
+  }
+  
+  .contact-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .contact-list li {
+    margin: 15px 0;
+  }
+  
+  .contact-list li a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .contact-list li a:hover {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  /* Mobiele layout */
+  @media (max-width: 768px) {
+    .contact-content {
+      padding: 15px;
+    }
+  
+    .contact-list li {
+      margin: 10px 0;
+    }
+  
+    .contact-list li a {
+      font-size: 16px;
+      padding: 8px 12px;
+    }
+  }
+  
+  
+  #rating-button-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  #rate-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #rate-button:hover {
+    background-color: #0056b3;
+  }
+  
