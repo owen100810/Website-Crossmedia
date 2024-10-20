@@ -36,6 +36,7 @@
 
   nav ul li a:hover {
     color: #0033ff;
+    transition: filter 0.3s ease;
   }
 
   main {
@@ -174,3 +175,12 @@
 #rate-button:hover {
   background-color: #0056b3;
 }
+
+.hover-icon {
+  transition: filter 0.3s ease;
+}
+
+.hover-icon:hover {
+  filter: invert(1);
+}
+
