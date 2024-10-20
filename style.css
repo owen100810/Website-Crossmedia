@@ -126,13 +126,17 @@
     }
   }
 
-  /* About Me sectie */
 .about-me {
-  display: flex;
-  flex-direction: column; /* Zet de richting van de elementen verticaal */
-  align-items: center;
-  justify-content: center;
-}
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
 
 
   .about-me img {
