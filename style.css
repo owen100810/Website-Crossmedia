@@ -176,11 +176,6 @@
   background-color: #0056b3;
 }
 
-.hover-icon {
-  transition: filter 0.3s ease;
-}
 
-.hover-icon:hover {
-  filter: invert(1);
-}
+
 
