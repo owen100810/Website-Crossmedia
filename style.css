@@ -111,6 +111,7 @@
 
     .wandeling-item {
       margin-bottom: 20px;
+      width: 95%
     }
 
     .about-me {
@@ -162,7 +163,7 @@
   color: white;
   border: none;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 1em;
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -193,4 +194,13 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.image-container img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
 
