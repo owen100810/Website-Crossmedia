@@ -145,3 +145,34 @@
   color: #666;
   text-align: center;
 }
+
+footer {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+footer a {
+  color: #ff6347;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.image-container img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
