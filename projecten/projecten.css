@@ -10,7 +10,7 @@ body {
     color: #000000;
 }
 
-/* Button styles */
+
 .project-button {
     margin: 20px;
     font-size: 18px;
@@ -27,7 +27,7 @@ body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Dark mode styles */
+
 body.dark-mode .project-button {
     background-color: #333333;
     color: white;
@@ -173,7 +173,7 @@ nav ul li a:hover {
 }
 
 #rate-button {
-    background-color: #007BFF; /* Default background color */
+    background-color: #007BFF; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -184,16 +184,16 @@ nav ul li a:hover {
 }
 
 #rate-button:hover {
-    background-color: #0056b3; /* Hover background color */
+    background-color: #0056b3;
 }
 
 body.dark-mode #rate-button {
-    background-color: #2ae320; /* Dark mode background color */
-    color: white; /* Text color in dark mode */
+    background-color: #2ae320; 
+    color: white; 
 }
 
 body.dark-mode #rate-button:hover {
-    background-color: #3FFF72; /* Dark mode hover background color */
+    background-color: #3FFF72; 
 }
 
 #projecten1 {
