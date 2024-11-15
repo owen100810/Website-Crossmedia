@@ -35,6 +35,10 @@ body.dark-mode a {
   color: #FFFFFF;
 }
 
+body.dark-mode #Project123 {
+    color: #595858;
+}
+
 body.dark-mode #projecten {
     background-color: #1E1E1E; 
     color: #E0E0E0; 
