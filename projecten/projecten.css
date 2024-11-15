@@ -36,7 +36,13 @@ body.dark-mode a {
 }
 
 body.dark-mode #Project123 {
+    margin: 20px;
+    font-size: 18px;
     background-color: #595858;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 body.dark-mode #projecten {
