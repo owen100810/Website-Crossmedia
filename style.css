@@ -21,26 +21,14 @@ body.dark-mode a {
 
 body.dark-mode p {
   color: #E0E0E0;
-    background-color: 4F4F4F;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 body.dark-mode h1 {
   color: #BB86FC;
-    background-color: 4F4F4F;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 body.dark-mode h2 {
   color: #BB86FC;
-    background-color: 4F4F4F;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #dark-mode-toggle {
@@ -143,7 +131,7 @@ body.dark-mode #dark-mode-toggle::before {
   }
 
   .home-content {
-    background-color: white;
+    background-color: #4f4f4f;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
