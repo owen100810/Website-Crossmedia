@@ -54,7 +54,10 @@ body.dark-mode p {
   background: none;
   border: none;
   color: inherit;
+  position: fixed-left;
 }
+
+
 
 body.dark-mode #dark-mode-toggle::before {
   content: "🌙"; 
