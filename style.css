@@ -19,12 +19,11 @@ body.dark-mode a {
   color: #FFFFFF;
 }
 
-home-content.dark-mode {
-    background-color: #4f4f4f;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+body.dark-mode .home-content {
+    background-color: #1E1E1E; 
+    color: #E0E0E0; 
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
 
 
 
