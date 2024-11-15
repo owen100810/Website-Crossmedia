@@ -42,6 +42,11 @@ body.dark-mode .home-content {
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
+body.dark-mode .about-me {
+    background-color: #1E1E1E; 
+    color: #E0E0E0; 
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
 
 
 body.dark-mode p {
