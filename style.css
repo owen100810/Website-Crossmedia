@@ -4,7 +4,6 @@
     box-sizing: border-box;
   }
 
-  /* Algemene layout */
   body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
@@ -12,13 +11,20 @@
   }
 
 body.dark-mode {
-  background-color: #1e1e1e;
+  background-color: #121212;
   color: #ffffff;
 }
 
-body.dark-mode button, 
 body.dark-mode a {
   color: #4da8ff;
+}
+
+body.dark-mode p {
+  color: #E0E0E0;
+}
+
+body.dark-mode h1,h2{
+  color: #BB86FC;
 }
 
 #dark-mode-toggle {
@@ -127,19 +133,6 @@ body.dark-mode #dark-mode-toggle::before {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  
-
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 30px;
-  }
-
-  footer p {
-    font-size: 14px;
-  }
 
   @media (max-width: 768px) {
     .foto-wandelen {
@@ -206,35 +199,5 @@ body.dark-mode #dark-mode-toggle::before {
 
 #rate-button:hover {
   background-color: #0056b3;
-}
-
-footer {
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-footer p {
-  font-size: 14px;
-  margin: 5px 0;
-}
-
-footer a {
-  color: #ff6347;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-.image-container img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
-}
-
-
-html {
-  scroll-behavior: smooth;
 }
 
