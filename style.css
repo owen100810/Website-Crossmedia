@@ -31,14 +31,6 @@ body.dark-mode p {
   color: #E0E0E0;
 }
 
-body.dark-mode h1 {
-  color: #BB86FC;
-}
-
-body.dark-mode h2 {
-  color: #BB86FC;
-}
-
 #dark-mode-toggle {
   cursor: pointer;
   font-size: 20px;
