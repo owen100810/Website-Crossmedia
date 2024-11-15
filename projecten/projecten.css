@@ -17,18 +17,18 @@
     padding: 15px;
     border-radius: 8px;
     border: none;
-    box-shadow: none; 
-    transition: transform 0.3s ease;
-}
-
-body.dark-mode .project-button {
-    background-color: #595858;
-    color: #E0E0E0;
+    box-shadow: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-button:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .project-button {
+    background-color: #595858;
+    color: #E0E0E0;
 }
 
 
