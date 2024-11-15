@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
-  body {
+body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
     color: #000000;
-  }
+}
 
 .project-button {
     margin: 20px;
@@ -32,8 +32,6 @@ body.dark-mode #projecten {
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
-
-
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
@@ -54,7 +52,6 @@ body.dark-mode #rate-button:hover {
   background-color: #3FFF72;
 }
 
-
 body.dark-mode #projecten1 {
   color: #E0E0E0;
 }
@@ -66,8 +63,8 @@ body.dark-mode #projecten1 {
   border: none;
   color: white;
   position: absolute;
-      top: 12px;
-      left: 30px;
+  top: 12px;
+  left: 30px;
 }
 
 body.dark-mode #dark-mode-toggle::before {
@@ -78,66 +75,65 @@ body.dark-mode #dark-mode-toggle::before {
   content: "☀️"; 
 }
 
-  header {
+header {
     background-color: #000000;
     padding: 15px 0;
     text-align: center;
     opacity: 0;
     animation: fadeIn 1.5s forwards;
-  }
+}
 
 @keyframes fadeIn {
-  to {
-    opacity: 1
-  }
+    to {
+        opacity: 1;
+    }
 }
-  
-  nav ul {
+
+nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     margin: 0 15px;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-  }
-  
-  nav ul li a:hover {
-    color: #0033ff;
-  }
-  
+}
 
-  #projecten {
+nav ul li a:hover {
+    color: #0033ff;
+}
+
+#projecten {
     max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  #projecten h2 {
+}
+
+#projecten h2 {
     font-size: 32px;
     color: #007BFF;
     text-align: center;
     margin-bottom: 20px;
-  }
-  
-  #projecten ul {
+}
+
+#projecten ul {
     list-style-type: none;
     padding-left: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  
-  #projecten li {
+}
+
+#projecten li {
     margin: 20px;
     font-size: 18px;
     background-color: #f9f9f9;
@@ -145,65 +141,61 @@ body.dark-mode #dark-mode-toggle::before {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  #projecten li:hover {
+}
+
+#projecten li:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-  }
-  
-  #projecten a {
+}
+
+#projecten a {
     color: #007BFF;
     text-decoration: none;
-  }
-  
-  #projecten a:hover {
+}
+
+#projecten a:hover {
     color: #ff6347;
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     #projecten ul {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
-  
+
     #projecten li {
-      margin-bottom: 20px;
-      width: 100%;
-      max-width: 400px;
-      text-align: center;
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
     }
-  }
-  
-  
-  
+}
+
 #rating-button-container {
-  position: fixed;
-  top: 65px;
-  right: 20px;
+    position: fixed;
+    top: 65px;
+    right: 20px;
 }
 
 #rate-button {
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 #rate-button:hover {
-  background-color: #0056b3;
+    background-color: #0056b3;
 }
 
 #projecten1 {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #666;
-  text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    text-align: center;
 }
-
-
