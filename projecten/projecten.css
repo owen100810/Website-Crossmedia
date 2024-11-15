@@ -31,10 +31,6 @@ body.dark-mode #rate-button:hover {
   background-color: #3FFF72;
 }
 
-body.dark-mode a {
-  color: #FFFFFF;
-}
-
 body.dark-mode #Project123 {
     margin: 20px;
     font-size: 18px;
