@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-  
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
     color: #000000;
 }
 
+/* Button styles */
 .project-button {
     margin: 20px;
     font-size: 18px;
@@ -26,6 +27,7 @@ body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* Dark mode styles */
 body.dark-mode .project-button {
     background-color: #333333;
     color: white;
@@ -44,46 +46,27 @@ body.dark-mode #projecten {
 }
 
 body.dark-mode {
-  background-color: #121212;
-  color: #ffffff;
-}
-
-body.dark-mode #rate-button {
-  background-color: #2ae320;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1em;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-body.dark-mode #rate-button:hover {
-  background-color: #3FFF72;
-}
-
-body.dark-mode #projecten1 {
-  color: #E0E0E0;
+    background-color: #121212;
+    color: #ffffff;
 }
 
 #dark-mode-toggle {
-  cursor: pointer;
-  font-size: 20px;
-  background: none;
-  border: none;
-  color: white;
-  position: absolute;
-  top: 12px;
-  left: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 12px;
+    left: 30px;
 }
 
 body.dark-mode #dark-mode-toggle::before {
-  content: "🌙"; 
+    content: "🌙"; 
 }
 
 #dark-mode-toggle::before {
-  content: "☀️"; 
+    content: "☀️"; 
 }
 
 header {
@@ -190,7 +173,7 @@ nav ul li a:hover {
 }
 
 #rate-button {
-    background-color: #007BFF;
+    background-color: #007BFF; /* Default background color */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -201,7 +184,16 @@ nav ul li a:hover {
 }
 
 #rate-button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Hover background color */
+}
+
+body.dark-mode #rate-button {
+    background-color: #2ae320; /* Dark mode background color */
+    color: white; /* Text color in dark mode */
+}
+
+body.dark-mode #rate-button:hover {
+    background-color: #3FFF72; /* Dark mode hover background color */
 }
 
 #projecten1 {
