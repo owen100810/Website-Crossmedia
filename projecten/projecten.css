@@ -53,17 +53,6 @@ body.dark-mode #rate-button:hover {
   background-color: #3FFF72;
 }
 
-body.dark-mode #Project123 {
-    margin: 20px;
-    font-size: 18px;
-    background-color: #595858;
-    padding: 15px;
-    border-radius: 8px;
-    border: none;
-    box-shadow: none; 
-    transition: transform 0.3s ease;
-}
-
 body.dark-mode #projecten {
     background-color: #1E1E1E; 
     color: #E0E0E0; 
