@@ -11,6 +11,33 @@
     color: #000000;
   }
 
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode button, 
+body.dark-mode a {
+  color: #4da8ff;
+}
+
+#dark-mode-toggle {
+  cursor: pointer;
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: inherit;
+}
+
+body.dark-mode #dark-mode-toggle::before {
+  content: "🌙"; 
+}
+
+#dark-mode-toggle::before {
+  content: "☀️"; 
+}
+
+
   header {
     background-color: #000000;
     padding: 15px 0;
