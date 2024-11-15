@@ -26,6 +26,17 @@ body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+body.dark-mode .project-button {
+    background-color: #333333;
+    color: white;
+    border: 1px solid #444;
+}
+
+body.dark-mode .project-button:hover {
+    background-color: #444444;
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
 body.dark-mode #projecten {
     background-color: #303030;
     color: #E0E0E0;
