@@ -1,11 +1,9 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Algemene layout */
   body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
@@ -100,7 +98,6 @@
     font-size: 14px;
   }
   
-  /* Mobiele layout */
   @media (max-width: 768px) {
     #projecten ul {
       flex-direction: column;
