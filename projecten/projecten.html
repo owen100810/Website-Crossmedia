@@ -1,67 +1,69 @@
-<header>
-    <button id="dark-mode-toggle">Toggle Dark Mode</button>
-  <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const darkModeToggle = document.getElementById("dark-mode-toggle");
-
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      document.body.classList.add("dark-mode"); 
-    }
-
-    darkModeToggle.addEventListener("click", () => {
-      document.body.classList.toggle("dark-mode");
-
-      if (document.body.classList.contains("dark-mode")) {
-        localStorage.setItem("theme", "dark");
-      } else {
-        localStorage.setItem("theme", "light");
-      }
-    });
-
-    const savedTheme = localStorage.getItem("theme");
-    if (savedTheme === "dark") {
-      document.body.classList.add("dark-mode");
-    } else {
-      document.body.classList.remove("dark-mode");
-    }
-  });
-</script>
-    <nav>
-      <ul>
-          <li><a href="../index.html" class="hover-icon">Home</a></li>
-     <li><a href="../over mij/Over_mij.html" class="hover-icon">Over Mij</a></li>
-      <li><a href="../projecten/Projecten.html" class="hover-icon">Projecten</a></li>
-      <li><a href="../contact/contact.html" class="hover-icon">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <link rel="stylesheet" href="projecten.css">
-  <script src="../script.js"></script>
-  
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="projecten.css">
+    <script src="../script.js"></script>
+</head>
+<body>
+    <header>
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        <nav>
+            <ul>
+                <li><a href="../index.html" class="hover-icon">Home</a></li>
+                <li><a href="../over mij/Over_mij.html" class="hover-icon">Over Mij</a></li>
+                <li><a href="../projecten/Projecten.html" class="hover-icon">Projecten</a></li>
+                <li><a href="../contact/contact.html" class="hover-icon">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <section id="projecten">
-      <h2>Projecten</h2>
-    <p id="projecten1">(je download de projecten als ZIP op je PC eens je erop klikt!)</p>
-      <ul>
-<li><a class="project-button" href="../Project_1.zip" download>Project 1</a></li>
-<li><a class="project-button" href="../Project_2.zip" download>Project 2</a></li>
-<li><a class="project-button" href="../Project_3.zip" download>Project 3</a></li> 
-  </body>
-  </html>
- <div id="rating-button-container">
-          <button id="rate-button" onclick="openInNewTab()">Laat een recensie achter</button>
-        <script>
-          function openInNewTab() {
+        <h2>Projecten</h2>
+        <p id="projecten1">(je download de projecten als ZIP op je PC eens je erop klikt!)</p>
+        <ul>
+            <li><a class="project-button" href="../Project_1.zip" download>Project 1</a></li>
+            <li><a class="project-button" href="../Project_2.zip" download>Project 2</a></li>
+            <li><a class="project-button" href="../Project_3.zip" download>Project 3</a></li>
+        </ul>
+    </section>
+
+    <div id="rating-button-container">
+        <button id="rate-button" onclick="openInNewTab()">Laat een recensie achter</button>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const darkModeToggle = document.getElementById("dark-mode-toggle");
+
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.body.classList.add("dark-mode"); 
+            }
+
+            darkModeToggle.addEventListener("click", () => {
+                document.body.classList.toggle("dark-mode");
+
+                if (document.body.classList.contains("dark-mode")) {
+                    localStorage.setItem("theme", "dark");
+                } else {
+                    localStorage.setItem("theme", "light");
+                }
+            });
+
+            const savedTheme = localStorage.getItem("theme");
+            if (savedTheme === "dark") {
+                document.body.classList.add("dark-mode");
+            } else {
+                document.body.classList.remove("dark-mode");
+            }
+        });
+
+        function openInNewTab() {
             window.open("https://docs.google.com/forms/d/1YehElZc0LLJgXIiGXA5gbbOdFdPYBaI1J171-aj_R4k/prefill", "Recensie");
-          }
-        </script>
-     </div>
+        }
+    </script>
+</body>
+</html>
