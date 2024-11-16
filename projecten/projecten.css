@@ -19,7 +19,10 @@ body {
     border-radius: 8px;
     border: none;
     box-shadow: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    position: absolute;
+      top: 12px;
+      bottom: 30px;
 }
 
 .project-button:hover {
