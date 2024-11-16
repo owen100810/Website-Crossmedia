@@ -127,16 +127,6 @@ nav ul li a:hover {
     justify-content: space-around;
 }
 
-#projecten li {
-    margin: 20px;
-    font-size: 18px;
-    background-color: #0000;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
 #projecten li:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
