@@ -28,7 +28,7 @@ body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-#projecten {
+#projectenli {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-around; 
@@ -36,11 +36,11 @@ body {
     list-style-type: none;
 }
 
-#projecten li {
+#projectenli li {
     padding-left: 0;
 }
 
-#projecten li:hover {
+#projectenli li:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
