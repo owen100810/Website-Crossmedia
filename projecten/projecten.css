@@ -120,7 +120,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-#projecten ul {
+#projecten ul li {
     list-style-type: none;
     padding-left: 0;
     display: flex;
@@ -128,7 +128,7 @@ nav ul li a:hover {
     justify-content: space-around;
 }
 
-#projecten ul:hover {
+#projecten ul li:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
