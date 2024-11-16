@@ -120,7 +120,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-#projecten ul {
+#projecten li {
     list-style-type: none;
     padding-left: 0;
     display: flex;
