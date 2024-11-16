@@ -40,11 +40,6 @@ body {
     padding-left: 0;
 }
 
-#projectenli li:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
 
 body.dark-mode .project-button {
     background-color: #333333;
