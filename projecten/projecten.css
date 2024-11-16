@@ -28,7 +28,7 @@ body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-#projecten {
+#projecten li {
     list-style-type: none;
     padding-left: 0;
     display: flex;
@@ -36,7 +36,7 @@ body {
     justify-content: space-around;
 }
 
-#projecten:hover {
+#projecten li:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
