@@ -17,10 +17,10 @@ body.dark-mode {
   color: #ffffff;
 }
 
-body.dark-mode .contact-content {
+body.dark-mode #contact-content {
     background-color: #121212;
     color: #E0E0E0;
-    box-shadow: 0 4px 8px rgba(0, 0, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 body.dark-mode #rate-button {
