@@ -30,8 +30,7 @@ body.dark-mode .contact-button {
 }
 
 body.dark-mode .contact-button:hover {
-    background-color: #444444;
-    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+    background-color: #2ae320;
 }
 
 body.dark-mode #rate-button {
