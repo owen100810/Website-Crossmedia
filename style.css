@@ -110,6 +110,10 @@ body.dark-mode #dark-mode-toggle::before {
     transition: filter 0.3s ease;
   }
 
+body .over-mij .dark-mode{
+    color: 34baeb;
+}
+
 #Wist ul {
   list-style-type: none;
   padding: 0;
