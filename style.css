@@ -36,6 +36,11 @@ body.dark-mode a {
   color: #0033ff;
 }
 
+body.dark-mode a:hover {
+  color: #0033ff;
+  cursor: pointer;
+}
+
 body.dark-mode .home-content {
     background-color: #1E1E1E; 
     color: #E0E0E0; 
