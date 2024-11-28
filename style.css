@@ -17,6 +17,15 @@ body.dark-mode {
   color: #ffffff;
 }
 
+#clock {
+    font-size: 175px;
+    width: 900px;
+    margin: 200px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
 body.dark-mode #rate-button {
   background-color: #2ae320;
   color: white;
