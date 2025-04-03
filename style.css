@@ -246,7 +246,7 @@ body .over-mij .dark-mode{
   right: 20px;
 }
 
-#rate-button {
+#rating-button-container {
   background-color: #007BFF;
   color: white;
   border: none;
@@ -257,6 +257,6 @@ body .over-mij .dark-mode{
   transition: background-color 0.3s ease;
 }
 
-#rate-button:hover {
+#rating-button-container:hover {
   background-color: #0056b3;
 }
