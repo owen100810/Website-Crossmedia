@@ -237,12 +237,14 @@ body .over-mij .dark-mode{
 }
 
 #rating-button-container {
+    margin-top: 20px; 
+}
+#rating-button-container {
     position: fixed;
     top: 65px;
     right: 20px;
 }
-
-#rate-button {
+#rating-button-container {
     background-color: #007BFF;
     color: white;
     border: none;
@@ -252,7 +254,6 @@ body .over-mij .dark-mode{
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
-
-#rate-button:hover {
+#rating-button-container:hover {
     background-color: #0056b3;
 }
