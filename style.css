@@ -221,17 +221,23 @@ body .over-mij .dark-mode{
     margin-top: 20px; 
 }
 
+#rating-button-container {
+  position: fixed;
+  top: 65px;
+  right: 20px;
+}
+
 #rate-button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 #rate-button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
