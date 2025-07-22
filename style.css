@@ -195,14 +195,6 @@ body .over-mij .dark-mode{
   }
 
 
-  @media (max-width: 768px) {
-    .foto-wandelen {
-      flex-direction: column;
-      align-items: center;
-      padding: 10px; 
-    }
-
-
 .about-me {
     background-color: #333;
     padding: 20px;
@@ -237,22 +229,31 @@ body .over-mij .dark-mode{
 }
 
 #rating-button-container {
-  position: fixed;
-  top: 65px;
-  right: 20px;
+    position: fixed;
+    top: 65px;
+    right: 20px;
 }
 
 #rate-button {
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+    background-color: #007BFF; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 #rate-button:hover {
-  background-color: #0056b3;
-}ground-color: #0056b3;
+    background-color: #0056b3;
+}
+
+body.dark-mode #rate-button {
+    background-color: #2ae320; 
+    color: white; 
+}
+
+body.dark-mode #rate-button:hover {
+    background-color: #3FFF72; 
+}
