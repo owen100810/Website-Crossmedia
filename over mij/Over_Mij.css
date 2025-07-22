@@ -25,12 +25,6 @@ body.dark-mode {
   color: #ffffff;
 }
 
-body.home-content {
-    background-color: #1E1E1E; 
-    color: #E0E0E0; 
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-}
-
 body.about-me {
     background-color: #1E1E1E; 
     color: #E0E0E0;
@@ -61,18 +55,11 @@ body.dark-mode a:hover {
   cursor: pointer;
 }
 
-body.dark-mode .home-content {
-    background-color: #1E1E1E; 
-    color: #E0E0E0; 
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-}
-
 body.dark-mode .about-me {
     background-color: #1E1E1E; 
     color: #E0E0E0; 
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
-
 
 body.dark-mode p {
   color: #E0E0E0;
@@ -88,8 +75,6 @@ body.dark-mode p {
       top: 12px;
       left: 30px;
 }
-
-
 
 body.dark-mode #dark-mode-toggle::before {
   content: "🌙"; 
@@ -185,13 +170,6 @@ body .over-mij .dark-mode{
     font-size: 18px;
     color: #666;
      text-align: center;
-  }
-
-  .home-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
 
