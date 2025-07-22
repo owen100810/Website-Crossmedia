@@ -1,180 +1,25 @@
-  .about-me {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-    * {
+/* Global reset should be at the top to avoid being overridden */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  body {
+body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
     color: #000000;
     transition: background-color 0.5s, color 0.5s;
-  }
-
-
+}
 
 body.dark-mode {
-  background-color: #121212;
-  color: #ffffff;
+    background-color: #121212;
+    color: #ffffff;
 }
 
-body.about-me {
-    background-color: #1E1E1E; 
-    color: #E0E0E0;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-}
-
-body.dark-mode #rate-button {
-  background-color: #2ae320;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1em;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-body.dark-mode #rate-button:hover {
-  background-color: #3FFF72;
-}
-
-body.dark-mode a {
-  color: #FFFFF;
-}
-
-body.dark-mode a:hover {
-  color: #0033ff;
-  cursor: pointer;
-}
-
-body.dark-mode .about-me {
-    background-color: #1E1E1E; 
-    color: #E0E0E0; 
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-}
-
-body.dark-mode p {
-  color: #E0E0E0;
-}
-
-#dark-mode-toggle {
-  cursor: pointer;
-  font-size: 20px;
-  background: none;
-  border: none;
-  color: white;
-  position: absolute;
-      top: 12px;
-      left: 30px;
-}
-
-body.dark-mode #dark-mode-toggle::before {
-  content: "🌙"; 
-}
-
-#dark-mode-toggle::before {
-  content: "☀️"; 
-}
-
-
-  header {
-    background-color: #000000;
-    padding: 15px 0;
-    text-align: center;
-    opacity: 0;
-    animation: fadeIn 1.5s forwards;
-  }
-
-@keyframes fadeIn {
-  to {
-    opacity: 1
-  }
-}
-
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    transition: background-color 0.5s, color 0.5s;
-  }
-
-  nav ul li {
-    margin: 0 15px;
-  }
-
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-  }
-
-  nav ul li a:hover {
-    color: #0033ff;
-    transition: filter 0.3s ease;
-  }
-
-body .over-mij .dark-mode{
-    color: 34baeb;
-}
-
-#Wist ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#Wist ul li {
-  color: #555; 
-  font-size: 1.1em;
-  margin: 8px 0;
-  padding-left: 20px;
-  position: relative;
-  line-height: 1.6;
-}
-
-#Wist ul li:before {
-  content: "💡"; 
-  position: absolute;
-  left: 0;
-  color: #ffcc00; 
-  font-size: 1.2em;
-}
-  main {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .intro {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-   h2 {
-    color: #007BFF;
-    font-size: 32px;
-    margin-bottom: 10px;
-     text-align: center;
-  }
-
-
-
-   p {
-    font-size: 18px;
-    color: #666;
-     text-align: center;
-  }
-
-
+/* Removed body.about-me as it's incorrectly targeting the body element with a class that's meant for a section */
 .about-me {
-    background-color: #333;
+    background-color: #333; /* Consolidated from duplicate .about-me rules */
     padding: 20px;
     border-radius: 10px;
     max-width: 800px;
@@ -186,22 +31,147 @@ body .over-mij .dark-mode{
     text-align: center;
 }
 
+/* Consolidated dark mode styles for .about-me */
+body.dark-mode .about-me {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode p {
+    color: #E0E0E0;
+}
+
+body.dark-mode a {
+    color: #ffffff; /* Fixed invalid hex color #FFFFF */
+}
+
+body.dark-mode a:hover {
+    color: #0033ff;
+    cursor: pointer;
+}
+
+#dark-mode-toggle {
+    cursor: pointer;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #000000; /* Changed to visible color for light mode */
+    position: absolute;
+    top: 12px;
+    left: 30px;
+}
+
+body.dark-mode #dark-mode-toggle {
+    color: #ffffff; /* Added for visibility in dark mode */
+}
+
+#dark-mode-toggle::before {
+    content: "☀️";
+}
+
+body.dark-mode #dark-mode-toggle::before {
+    content: "🌙";
+}
+
+header {
+    background-color: #000000;
+    padding: 15px 0;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #0033ff;
+    transition: color 0.3s ease; /* Fixed transition property (filter was incorrect) */
+}
+
+#Wist ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Wist ul li {
+    color: #555;
+    font-size: 1.1em;
+    margin: 8px 0;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.6;
+}
+
+#Wist ul li:before {
+    content: "💡";
+    position: absolute;
+    left: 0;
+    color: #ffcc00;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #007BFF;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+}
+
 .square_photo_128 {
     width: 128px;
     height: 128px;
-    background-size: cover; 
-    margin-bottom: 20px; 
+    background-size: cover;
+    margin-bottom: 20px;
 }
 
 .rounded_profile_photo {
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .about-me p {
     max-width: 400px;
     font-size: 18px;
     line-height: 1.6;
-    color: #E0E0E0; 
+    color: #E0E0E0;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -213,7 +183,7 @@ body .over-mij .dark-mode{
 }
 
 #rate-button {
-    background-color: #007BFF; 
+    background-color: #007BFF;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -228,10 +198,15 @@ body .over-mij .dark-mode{
 }
 
 body.dark-mode #rate-button {
-    background-color: #2ae320; 
-    color: white; 
+    background-color: #2ae320;
+    color: white;
 }
 
 body.dark-mode #rate-button:hover {
-    background-color: #3FFF72; 
+    background-color: #3FFF72;
+}
+
+/* Removed invalid selector body .over-mij .dark-mode */
+body.dark-mode .over-mij {
+    color: #34baeb; /* Fixed invalid color format */
 }
